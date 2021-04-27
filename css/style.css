@@ -1,0 +1,410 @@
+/********************************
+
+	2. Department section End
+	3. Section name
+
+*********************************/
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style: none;
+	text-decoration: none;
+}
+img{
+	max-width: 100%;
+}
+.container{
+	max-width: 1170px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.row{
+	margin-left: -15px;
+	margin-right: -15px;
+}
+.row::after{
+	display: table;
+	content: '';
+	clear: both;
+}
+[class*="col-"]{
+	float: left;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.col-1{
+	width: 100%;
+	max-width: 8.33%;
+}
+.col-2{
+	width: 100%;
+	max-width: 16.66%;
+}
+.col-3{
+	width: 100%;
+	max-width: 25%;
+}
+.col-4{
+	width: 100%;
+	max-width: 33.33%;
+}
+.col-5{
+	width: 100%;
+	max-width: 41.66%;
+}
+.col-6{
+	width: 100%;
+	max-width: 50%;
+}
+.col-7{
+	width: 100%;
+	max-width: 58.33%;
+}
+.col-8{
+	width: 100%;
+	max-width: 66.66%;
+}
+.col-9{
+	width: 100%;
+	max-width: 75%;
+}
+.col-10{
+	width: 100%;
+	max-width: 83.33%;
+}
+.col-11{
+	width: 100%;
+	max-width: 91.66%;
+}
+.col-12{
+	width: 100%;
+	max-width: 100%;
+}
+body{
+	font-family: 'Work Sans', sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+	font-weight: 700;
+	font-family: 'Montserrat', sans-serif;
+}
+p{
+	font-weight: 400;
+}
+.header-area{
+	padding-top: 24px;
+	background: #fff9f3;
+	padding-bottom:320px; 
+	background: url(../images/home-3.png) no-repeat;
+	background-position: center;
+	background-size: cover;	
+	position: relative;
+}
+.header-area::after{
+	position: absolute;
+	left: 0;
+	bottom: -5%;
+	height: 200px;
+	width: 250px;
+	content: '';
+	background: url(../images/home-2.png) no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+.header-area::before{
+	position: absolute;
+	right: 0;
+	bottom: -5%;
+	height: 200px;
+	width: 250px;
+	content: '';
+	background: url(../images/bg1.png) no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+
+.mobile-nav{
+	display: none;
+    float: right;
+    margin-top: -10%;
+	font-size:30px;
+}
+.lms-menu{
+	text-align:right;
+	padding-top: 20px;
+}
+.lms-menu li{
+	display: inline-block;
+	padding: 10px 22px
+}
+.lms-menu li a{
+	display: inline-block;
+	text-transform: uppercase;
+	color: #39393a;
+	font-size: 16px;
+}
+.lms-menu li a:hover{
+	color: #ffc178;
+	border-bottom:3px solid #ffc178;
+}
+
+.lms-apply-btn a{
+	color: #ffc178 !important;
+	background: #ffffff;
+	border-radius: 30px;
+	border-bottom:0 !important;
+	padding: 10px 22px;
+}
+.lms-banner{
+	padding-top: 200px;
+}
+.lms-banner h2{
+	color: #ffc178;
+	font-size: 40px;
+}
+.lms-banner p{
+	padding-top:20px;
+	padding-bottom:40px;
+}
+.lms-btn a{
+	color: #ffffff;
+	background: #ffc178;
+	padding: 20px 35px;
+	border-radius: 50px;
+	font-size: 18px;
+}
+/*Header area End*/
+/*Department area Start*/
+
+#lms-dept-area{
+	padding-top: 160px;
+	background: url(../images/home-5.png) no-repeat;
+	background-size: contain;
+	background-position: top;
+}
+.section-title{
+	text-align: center;
+}
+.section-title h2{
+	font-size: 40px;
+}
+.section-title p{
+	padding-top: 20px;
+	padding-bottom: 60px;
+	width: 60%;
+	margin-right: auto;
+	margin-left: auto;
+}
+.dept-single{
+	text-align: center;
+	padding: 30px;
+	color: #fff;
+	z-index: 5;
+	position:relative;
+
+}
+#lms-dept-area .col-4:nth-child(1) .dept-single{
+	background: #f9703a;
+}
+#lms-dept-area .col-4:nth-child(2) .dept-single{
+	background: #80be41;
+}
+#lms-dept-area .col-4:nth-child(3) .dept-single{
+	background: #ffb258;
+}
+
+
+/************************************
+	2. Department section End
+*************************************/
+#lms-lerning-area{
+	padding-top: 100px;
+	position: relative;
+}
+#lms-lerning-area::before{
+	position: absolute;
+	content: '';
+	width: 700px;
+    height: 950px;
+    top: -161px;
+    left: -244px;
+	background: url(../images/round.png)0 0 no-repeat ;
+	background-position: center;
+	background-size: contain;
+}
+.video-area{
+	background: url(../images/video.jpg) 0 0 no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 400px;
+	width: 400px;
+	position: relative;
+	border:10px solid #fff;
+	border-radius: 50%;	
+}
+.video-area::after{
+	position: absolute;
+	content: '';
+	top: 0;
+	left: -86px;
+	width: 200px;
+	height: 200px;
+	background: url(../images/fl.png) no-repeat;
+	background-position: center;
+	background-size: cover;
+	z-index: -1;
+}
+.video-area::before{
+	position: absolute;
+	content: '';
+	top: -21px;
+	right: -21px;
+	width: 400px;
+	height: 400px;
+	border-radius: 50%;
+	border:10px solid #fdf6ee;
+}
+	
+	.play-icon{
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	line-height: 100px;
+	color: #fff;
+	background: #ffc178;
+	text-align: center;
+	font-size: 30px;
+	cursor: pointer;
+}
+.count{
+	color: #ffc178;
+}
+.lms-content-area h2{
+	font-size: 40px;
+	padding-bottom: 30px;
+}
+.counter-area{
+	margin-top: 55px;
+}
+.counter-area .col-4:nth-child(1) .count{
+	color: #ffc178;
+}
+.counter-area .col-4:nth-child(2) .count{
+	color: #ff5f72;
+}
+.counter-area .col-4:nth-child(3) .count{
+	color: #43cb83;
+}
+/*lerning-area section end*/
+/*University section Start*/
+#lms-university-area{
+	padding-top: 135px;
+	padding-bottom: 105px;
+	position: relative;
+	z-index: 8;
+}
+#lms-university-area::after{
+	background: url(../images/bgp.png)0 0 no-repeat;
+	background-position: center;
+	background-size: contain;
+	content: '';
+	top: 155px;
+    right: -112px;
+    width: 435px;
+    height: 900px;	
+    position:absolute;
+}
+.versity-title{
+	text-align: center;
+	padding-bottom: 100px;
+}
+.versity-content{
+	padding:15px 0;
+	position: relative;
+	z-index: 8;
+}
+.content-area{
+	padding: 20px 10px 15px 26px;
+	box-shadow: 0 11px 21px #d4d8e4;
+}
+.content-area p{
+	padding-bottom: 35px;
+}
+.content-area h4{
+	padding-bottom: 5px;
+}
+.content-area a{
+	color: #5a6e79;
+}
+/*University section End*/
+/*footer section Start*/
+#footer-area{
+	background: #252c3a;
+	padding-top: 80px;
+	color: #7f8083;
+}
+.footer-content a{
+	color: #7f8083;
+}
+.footer-content p{
+	padding-bottom: 40px;
+}
+.footer-content .first-line p{
+	padding-top: 25px; 
+}
+.social-icon i{
+	font-size: 20px;
+	padding:4px;
+}
+.social-icon i:hover{
+	color:#333;
+	 background:#0089fd;
+}
+.footer-content h5{
+	padding-bottom:47px; 
+}
+.footer-content li{
+	padding-bottom: 20px;
+}
+.footer-content input{
+	padding: 10px;
+	margin-top: 20px;
+	border: 1px solid  #ffc178;
+}
+.footer-content input[type="submit"]{
+	color: #fff; 
+	background: #ffc178;
+	outline-border: none;
+}
+.footer-content [type="email"] {
+    margin: -5px
+  }
+.footer-content input:focus {
+    outline: 0px solid #ffffff;
+ } 
+
+/*footer section End*/
+/*second footer section Start*/
+#second-footer{
+	background: #1d232e;
+	padding: 15px 0;
+	color: #7f8083;
+}
+.privacy-area a{
+	color: #7f8083;
+	text-align: right;
+	padding-left: 20px;
+}
+.privacy-area {
+	text-align: right;
+}

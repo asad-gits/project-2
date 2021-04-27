@@ -1,0 +1,205 @@
+@media(max-width: 768px){
+}
+@media(max-width: 1066px){
+	.video-area{
+		width: 300px;
+		height: 300px;
+		margin: auto;
+	}
+	.play-icon {
+	    height: 60px;
+	    width: 60px;
+	    line-height: 60px;
+	    font-size: 20px;
+	}
+	#lms-lerning-area::before{
+		display: none;
+	}
+	.video-area::before{
+		display: none;
+	}
+	.lms-menu li{
+	 	padding: 10px 13px;
+	}
+	#lms-university-area::after{
+		display: none;
+	}
+  }
+@media(max-width: 915px){
+	.lms-menu li{
+	 	padding: 10px 4px;
+	}
+	.footer-content input {
+    padding: 4px;
+	}
+  }
+@media(max-width: 767px){
+	.main-header .col-10{
+		max-width: 100%;
+	}
+	.col-3{
+		max-width: 50%;
+	}
+	.col-4{
+		max-width: 50%;
+	}
+	.col-9{
+		max-width: 50%
+	}
+	.counter-area .col-4{
+		max-width: 33.3%;
+	}
+	#lms-lerning-area .col-7{
+		max-width: 100%
+	}
+	#lms-lerning-area .col-5{
+		max-width: 100%
+	}
+	.main-header{
+		background: #fff;
+		position: fixed;
+		width: 100%;
+		top: 0;
+		left: 0;
+		padding: 5px 15px;
+		z-index: 9;
+	}
+	.header-area::after{
+		display: none;
+	}
+	.header-area::before{
+		display: none;
+	}
+	.lms-banner{
+		margin-top: 100px;
+	}
+	.lms-menu{
+		display: none;
+		width: 100%;
+	}
+	.lms-menu ul li, .lms-menu ul li a{
+		display: block;
+	}
+	.mobile-nav{
+		display: inline-block;
+	}
+	.lms-menu ul li{
+		padding: 10px 0;
+		text-align: left;
+	}
+	.lms-btn a {
+		padding: 16px 28px;
+	    font-size: 15px;
+	}
+	#lms-dept-area {
+		padding-top: 75px;
+	}	
+	#lms-university-area {
+    	padding: 50px 0;
+}
+	.versity-title{
+		padding-bottom: 50px;
+	}
+	.section-title h2{
+    	font-size: 29px;
+	}
+	.lms-content-area h2 {
+		font-size: 28px;
+}
+	.dept-single{
+		margin-top: 15px;
+	}
+}
+@media screen and (max-width: 480px){
+	.col-3{
+		max-width: 100%;
+	}
+	.col-4{
+		max-width: 100%;
+	}
+	.col-7{
+		max-width: 100%
+	}
+	.col-5{
+		max-width: 100%
+	}
+	.col-9{
+		max-width: 100%
+	}
+	.counter-area .col-4{
+		max-width: 33.3%;
+	}
+	.lms-banner{
+		padding-top:100px;
+	}
+	.header-area{
+		padding-bottom:180px;
+	}
+	.lms-banner h2 {
+		font-size: 25px;
+	}
+	.lms-btn a{
+		padding: 11px 9px;
+	    border-radius: 50px;
+	    font-size: 13px;
+	}
+	.section-title h2{
+		font-size: 30px;
+	}
+	.section-title p{
+		padding-bottom:25px;
+	}
+	.dept-single{
+		margin-top: 20px;
+	}
+	.count{
+		width: 25%;
+	}
+	.video-area{
+		width: 300px;
+		height: 300px;
+	}
+	.video-area::before{
+		 top: -21px;
+		 right: -21px;
+		 width: 300px;
+		 height: 300px
+	}	
+	#lms-lerning-area::before{
+		display: none;
+	}
+	#lms-lerning-area {
+		padding-top:36px;
+	}
+	.lms-content-area h2{
+		padding-top: 20px;
+		font-size: 30px;
+	}
+	#lms-dept-area, #lms-university-area{
+		padding-top: 20px;
+	}
+	.versity-title, #lms-university-area{
+		padding-bottom: 20px;
+	}
+	#footer-area{
+		padding-top: 30px;	
+	}
+	.footer-content li{
+		padding-bottom: 14px;
+	}
+	.footer-content input{
+		padding: 5px;
+		margin-bottom:16px;
+	}
+	.footer-content h5 {
+	    padding-bottom: 33px;
+	    padding-top: 15px;
+}
+	.privacy-area a{
+		padding-left: 0px;
+	}
+	.privacy-area{
+		text-align: left;
+	}
+
+}
