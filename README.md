@@ -1,3 +1,3 @@
-# project-2
-PSD To HTML
-Live Url: https://asad-gits.github.io/project-2/
+# education-lms-website
+Responsive Education LMS Website Using HTML, CSS & JavaScript.
+Live Url: https://md-asadul.github.io/education-lms-website/
