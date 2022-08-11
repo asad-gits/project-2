@@ -109,6 +109,9 @@
 	.dept-single{
 		margin-top: 15px;
 	}
+	.versity-content img {
+		width: 100%;
+	}
 }
 @media screen and (max-width: 480px){
 	.col-3{
@@ -148,6 +151,7 @@
 	}
 	.section-title p{
 		padding-bottom:25px;
+		width: 100%;
 	}
 	.dept-single{
 		margin-top: 20px;
@@ -165,6 +169,9 @@
 		 width: 300px;
 		 height: 300px
 	}	
+	.versity-content {
+		margin-bottom: 20px;
+	}
 	#lms-lerning-area::before{
 		display: none;
 	}

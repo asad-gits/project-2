@@ -105,7 +105,7 @@ p{
 	background-size: cover;	
 	position: relative;
 }
-.header-area::after{
+/* .header-area::after{
 	position: absolute;
 	left: 0;
 	bottom: -5%;
@@ -115,8 +115,8 @@ p{
 	background: url(../images/home-2.png) no-repeat;
 	background-size: contain;
 	background-position: center;
-}
-.header-area::before{
+} */
+/* .header-area::before{
 	position: absolute;
 	right: 0;
 	bottom: -5%;
@@ -126,7 +126,7 @@ p{
 	background: url(../images/bg1.png) no-repeat;
 	background-size: contain;
 	background-position: center;
-}
+} */
 
 .mobile-nav{
 	display: none;
@@ -182,10 +182,10 @@ p{
 /*Department area Start*/
 
 #lms-dept-area{
-	padding-top: 160px;
-	background: url(../images/home-5.png) no-repeat;
+	/* padding-top: 160px; */
+	/* background: url(../images/home-5.png) no-repeat;
 	background-size: contain;
-	background-position: top;
+	background-position: top; */
 }
 .section-title{
 	text-align: center;
@@ -275,7 +275,7 @@ p{
 	border:10px solid #fdf6ee;
 }
 	
-	.play-icon{
+.play-icon{
 	height: 100px;
 	width: 100px;
 	border-radius: 50%;
@@ -308,12 +308,18 @@ p{
 /*lerning-area section end*/
 /*University section Start*/
 #lms-university-area{
+	/* padding-top: 135px;
+	padding-bottom: 105px; */
+	/* position: relative; */
 	padding-top: 135px;
-	padding-bottom: 105px;
-	position: relative;
-	z-index: 8;
+	z-index: 0;
+	width: 100%;
+    background: url(../images/bgp.png) bottom right no-repeat;
+    background-size: 31%;
+    /* /* margin-top: -170px; */
+    padding-bottom: 60px;
 }
-#lms-university-area::after{
+/* #lms-university-area::after{
 	background: url(../images/bgp.png)0 0 no-repeat;
 	background-position: center;
 	background-size: contain;
@@ -323,10 +329,10 @@ p{
     width: 435px;
     height: 900px;	
     position:absolute;
-}
+} */
 .versity-title{
 	text-align: center;
-	padding-bottom: 100px;
+	padding-bottom: 70px;
 }
 .versity-content{
 	padding:15px 0;
@@ -336,6 +342,7 @@ p{
 .content-area{
 	padding: 20px 10px 15px 26px;
 	box-shadow: 0 11px 21px #d4d8e4;
+	background: #fff;
 }
 .content-area p{
 	padding-bottom: 35px;
